@@ -30,3 +30,7 @@ function addGif(res) {
         addGif(response.data);
       });
       
+
+      $("#remove").on("click", function() {
+        $gifArea.empty();
+      });
